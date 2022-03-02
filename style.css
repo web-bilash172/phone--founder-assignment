@@ -10,7 +10,7 @@ body{
 
 /* nav bar  */
 .nav-section{
-    background-color: rgba(230, 255, 89, 0.959);
+    background-color: rgba(24, 24, 22, 0.959);
 }
 .nav-text a:hover{
     text-decoration: underline;
