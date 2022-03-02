@@ -18,7 +18,7 @@ const getSearch = () => {
     //take input value
     const searchInput = document.getElementById('search-input');
     const searchValue = searchInput.value.toLowerCase();
-    // error check
+    // error handle
     if (searchValue === '') {
         searchResult.innerHTML = '';
         document.getElementById('not-found').style.display = "none";
