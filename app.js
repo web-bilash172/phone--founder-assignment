@@ -89,9 +89,9 @@ const displayDetails = data => {
     phoneDetails.appendChild(div);
 
     // details section
-    const detailsDiv = document.createElement('div');
-    detailsDiv.className = 'container-fluid details-text col-sm-6 my-3';
-    detailsDiv.innerHTML = `
+    const phoneDetailsDiv = document.createElement('div');
+    phoneDetailsDiv.className = 'container-fluid details-text col-sm-6 my-3';
+    phoneDetailsDiv.innerHTML = `
     <div class="row">
         <div class="row">
             <div class="col-sm-4 col-4">
@@ -136,7 +136,7 @@ const displayDetails = data => {
         </div>
     </div>
     `;
-    phoneDetails.appendChild(detailsDiv);
+    phoneDetails.appendChild(phoneDetailsDiv);
 
     // display others details 
     const othersDiv = document.createElement('div');
@@ -157,14 +157,14 @@ const displayDetails = data => {
                         </div>
                 `;
             othersDiv.appendChild(div);
-            detailsDiv.appendChild(othersDiv);
+            phoneDetailsDiv.appendChild(othersDiv);
         };
     }
     else {
         othersDiv.innerHTML = '';
-        detailsDiv.appendChild(othersDiv);
+        phoneDetailsDiv.appendChild(othersDiv);
     }
-    phoneDetails.appendChild(detailsDiv);
+    phoneDetails.appendChild(phoneDetailsDiv);
 };
 
 // show display result function

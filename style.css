@@ -10,19 +10,19 @@ body{
 
 /* nav bar  */
 .nav-section{
-    background-color: rgba(255, 150, 102, 0.959);
+    background-color: rgba(230, 255, 89, 0.959);
 }
 .nav-text a:hover{
     text-decoration: underline;
-    color: white;
+    color: rgb(20, 20, 20);
     
 }
 .dropdown-section a:hover{
-    color: rgb(255, 105, 36);
+    color: rgb(59, 56, 54);
 }
 /* search input section  */
 #search-input{
-    border: 1px solid rgb(255, 135, 79);
+    border: 1px solid rgb(26, 24, 24);
 }
 #search-input:focus{
     box-shadow: 1px 1px 5px rgb(255, 105, 36);
